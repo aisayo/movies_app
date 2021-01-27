@@ -1,0 +1,8 @@
+# we define rake tasks
+# check rake tasks rake -T
+
+require 'sinatra/activerecord/rake'
+
+task :test do 
+    puts "this is a rake test"
+end 
