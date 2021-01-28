@@ -2,7 +2,8 @@
 # check rake tasks rake -T
 
 require 'sinatra/activerecord/rake'
+require "./config/environment"
 
-task :test do 
-    puts "this is a rake test"
+task :console do 
+    Pry.start
 end 
