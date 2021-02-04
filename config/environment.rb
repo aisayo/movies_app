@@ -3,7 +3,7 @@ require 'bundler/setup'
 Bundler.require
 
 # require all files/model files 
-require_relative '../app/movie'
+require_relative '../app/models/movie'
 
 
 # establish the connect 
